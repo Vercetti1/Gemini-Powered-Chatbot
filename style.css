@@ -303,8 +303,8 @@ body.hide-header .header{
     }
 
     .chat-list .message .avatar{
-        width: 37px;
-        height: 37px;
+        width: 70px;
+        height: 40px;
     }
 
     .typing-area :where(.typing-form .actions-button){
