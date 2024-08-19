@@ -117,7 +117,7 @@ const handleOutgoingChat = () =>{
 
     const html = `<div class="message incoming">
     <div class="message-content">
-        <img src="images/user.jpg" alt="User Image" class="avatar">
+        <img src="images/IMG_3584.jpeg" alt="User Image" class="avatar">
         <p class="text"></p>
     </div>`;
 
@@ -155,3 +155,11 @@ typingForm.addEventListener("submit", (e) => {
     e.preventDefault();
     handleOutgoingChat();
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    var name = prompt('Please enter your name:');
+    if(name) {
+      document.getElementById('title').textContent = 'Hello, ' + name;
+    }
+  });
+  
