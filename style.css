@@ -305,6 +305,7 @@ body.hide-header .header{
     .chat-list .message .avatar{
         width: 70px;
         height: 40px;
+        border-radius: 100%;
     }
 
     .typing-area :where(.typing-form .actions-button){
